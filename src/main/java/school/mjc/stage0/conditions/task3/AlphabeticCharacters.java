@@ -2,7 +2,7 @@ package school.mjc.stage0.conditions.task3;
 
 public class AlphabeticCharacters {
     public static void main(String[] args) {
-        vowelDeterminer('ф');
+        vowelDeterminer('A');
     }
     public static void vowelDeterminer(char character) {
         if (character == 'e' || character == 'y' ||character == 'u' ||character == 'i' ||character == 'o' ||character == 'a' ) {
