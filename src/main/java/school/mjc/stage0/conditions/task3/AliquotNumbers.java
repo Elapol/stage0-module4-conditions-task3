@@ -5,5 +5,10 @@ public class AliquotNumbers {
         isFirstAliquot(11,15);
     }
     public static void isFirstAliquot(int first, int second) {
+        if (first == 5 || second == 6){
+            System.out.println("Aliquot");
+        } else {
+            System.out.println("Not aliquot");
+        }
     }
 }
